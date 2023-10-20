@@ -1,0 +1,32 @@
+name: HubPlugin
+version: '1.0'
+main: com.willpk.mc.HubPlugin
+api-version: '1.20'
+author:
+commands:
+  vanish:
+    description: "Vanishes the player"
+    usage: "/vanish"
+    aliases: [v]
+    permission: hubplugin.admin.vanish
+    permission-message: "You do not have permission to use this command"
+  spawn:
+    description: "Sends the player back to spawn"
+  fly:
+    description: "Allows the player to fly"
+    usage: "/fly"
+    permission: hubplugin.admin.fly
+    permission-message: "You do not have permission to use this command"
+permissions:
+  hubplugin.admin.*:
+    description: "This is a permission node"
+    default: op
+    children:
+      hubplugin.admin.fly: true
+      hubplugin.admin.vanish: true
+  hubplugin.admin.fly:
+    default: op
+    description: "Allows the player to use /fly"
+  hubplugin.admin.vanish:
+    description: "Allows the player to use /vanish"
+
