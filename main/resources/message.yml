@@ -1,0 +1,12 @@
+nopermissionmessage: "You do not have permission for this command"
+flyOn: "You have turned off fly"
+flyOff: "You have turned on fly"
+vanishOn: "You are hidden"
+vanishOff: "You are no longer hidden"
+boostMessage: "You've given yourself a boost"
+playerVisibleOn: "All players are now invisible to you."
+playerVisibleOff: "All players are now visible to you."
+tpSurvival: "Teleporting you to Survival"
+tpSkyblock: "Teleporting you to Skyblock"
+tpPrison: "Teleporting you to Prison"
+
